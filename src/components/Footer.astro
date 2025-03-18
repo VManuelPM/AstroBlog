@@ -1,0 +1,20 @@
+---
+import Social from './Social.astro';
+
+const platform = "www.amoelcodigo.com";
+---
+
+<style>
+    footer {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+</style>
+
+<footer>
+    <p>You can visit my blog on <a href="${platform}">amoelcodigo.com</a>  </p>
+    <Social platform="twitter" username="astrodotbuild" />
+    <Social platform="github" username="withastro" />
+    <Social platform="youtube" username="astrodotbuild" />
+</footer>
